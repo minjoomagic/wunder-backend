@@ -30,10 +30,10 @@
 # puts 'finished seeding'
 require 'csv'
 
-CSV.read(Rails.root.join('lib', 'seeds', 'seeds2.csv'), headers: true).each do |row|
+CSV.read(Rails.root.join('lib', 'seeds', 'seedData.csv'), headers: true).each do |row|
   t = Item.new
   t.name = row['name']
-  t.price = row['price'].to_f
+  t.price = row['price']
   t.sold_by = row['sold_by']
   t.category = row['category']
   t.description = row['description']
