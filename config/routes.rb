@@ -5,6 +5,12 @@ Rails.application.routes.draw do
   resources :stores
   resources :store_items
 
+  resources :messages
+  resources :chats
+  resources :user_chats
+  mount ActionCable.server => '/cable'
+
+
   get "/get_user", to: "users#get_user"
   post "/login_user", to: "auth#create"
 

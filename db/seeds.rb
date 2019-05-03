@@ -28,9 +28,18 @@
 
 #
 # puts 'finished seeding'
+
+puts "starting manual seed data"
+Store.create(name: "H&Y Marketplace")
+
+
+
 require 'csv'
 
-CSV.read(Rails.root.join('lib', 'seeds', 'seedData.csv'), headers: true).each do |row|
+csv_text = File.read(Rails.root.join('lib', 'seeds', 'seedData.CSV'))
+csv = CSV.parse(csv_text.scrub, headers: true)
+csv.each do |row|
+
   t = Item.new
   t.name = row['name']
   t.price = row['price']
@@ -44,3 +53,20 @@ CSV.read(Rails.root.join('lib', 'seeds', 'seedData.csv'), headers: true).each do
 
 
 puts "There are now #{Item.count} rows in the transactions table"
+
+
+
+i = 1
+38.times do
+  aisle = [*1..10].sample
+  puts "#{aisle}"
+  puts " i is: #{i}"
+  store = StoreItem.create(store_id: 1, item_id: "#{i}".to_i ,location: "Aisle #{aisle}")
+  puts "last created storeitem is: #{StoreItem.all.last}"
+  i+=1
+  puts "made #{store}"
+  puts "i is: #{i}"
+
+end
+
+puts "finished manual seed data"
