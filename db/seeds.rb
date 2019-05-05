@@ -61,7 +61,7 @@ i = 1
   aisle = [*1..10].sample
   puts "#{aisle}"
   puts " i is: #{i}"
-  store = StoreItem.create(store_id: 1, item_id: "#{i}".to_i ,location: "Aisle #{aisle}")
+  store = StoreItem.create(store_id: 1, item_id: "#{i}".to_i ,location: "aisle-#{aisle}")
   puts "last created storeitem is: #{StoreItem.all.last}"
   i+=1
   puts "made #{store}"

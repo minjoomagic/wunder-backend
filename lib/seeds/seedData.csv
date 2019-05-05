@@ -1,38 +1,38 @@
-name,price,sold_by,category,description,image_url
-banana,0.59,/LB,produce,Monkey's fav,https://i.imgur.com/tOkN7FU.png
-fuji apple,1.49,/LB,produce,"Grown in NY state, support your local orchards",https://i.imgur.com/wfeSPGq.png
-white peach,0.99,/LB,produce,California giant white peaches. Enough said.,https://i.imgur.com/24uTbcP.png
-napa cabbage ,0.59,/LB,produce,"Said to be ""The Fountain of Youth"" ",https://i.imgur.com/c4wF7TX.png
-baby bokchoy,1.99,/LB,produce,A stir-fry delight,https://i.imgur.com/lhRU5VS.png
-lemon,0.49,/EA,produce,"Make lemon zest, lemonade, or other lemony delights.",https://i.imgur.com/Zr3hbp7.png
-dragonfruit,3.99,/EA,produce,The flame of a dragon reincarnated into a fruit,https://i.imgur.com/LScH6BA.png
-ginger,0.79,/LB,produce,The root of all goodness,https://i.imgur.com/ipcG9cN.png
-strawberries,1.99,/EA,produce,Berry Berry Good. Smoothie Maker,https://i.imgur.com/viniaWB.png
-watermelon,6.99,/EA,produce,Hauled in from Texas. Yee-Haw,https://i.imgur.com/XEYeESc.png
-gummy bears,1.99,/EA,candy,Yummy yummy yummy Ive got gummy in my tummy,https://i.imgur.com/8iGYvAs.png
-green tea kit kats,3.99,/EA,snacks,An Asian twist on an American classic.,https://i.imgur.com/HS2kJRQ.png
-orion chocopie,2.99,/EA,snacks,"Similar to moon-pies, chocolate on the outside and marshmallow on the inside",https://i.imgur.com/1OBq84Q.png
-brown rice green tea 20s,4.99,/EA,tea,All the benefits of green tea without the bitterness and an earthy flavor,https://i.imgur.com/jJYEcJm.png
-fusilli,2.99,/EA,pasta,Around and around we go. Twisty,https://i.imgur.com/OOvOdyu.png
-hand-made spaghetti,4.99,/LB,pasta,Hand-tossed by our Italian pasta master chef.,https://i.imgur.com/z8cgMND.png
-Shrimp,5.99,/LB,seafood,Try our new skewer shrimp sets!,https://i.imgur.com/cvpWSEF.png
-cereal,3.99,/EA,dried goods,An American staple for breakfast. How do you eat your Os?,https://i.imgur.com/OBYLpbz.png
-Salmon,8.99,/LB,seafood,Forget the supplements. Get your natural dose of Omega-3 upstream,https://i.imgur.com/oQkWVC1.png
-flour,3.99,/EA,baking,The essential base to start any baking recipe,https://i.imgur.com/uyiR0NG.png
-soy sauce,2.99,/EA,seasoning,The must have item for any Asian recipe as it will be used in some way shape or form,https://i.imgur.com/M3yUsuv.png
-teriyaki sauce,2.49,/EA,seasoning,Marinade your favorite protein or mix in with salad dressing for a tangy kick.,https://i.imgur.com/CliKTD8.png
-sriracha sauce,3.59,/EA,condiments,The famous green capped hot sauce. From pizza to Pho noodles spice it up!,https://i.imgur.com/0II71O7.png
-la short ribs,11.99,/LB,meat,The ultimate Korean BBQ meat to marinade. We have fresh or pre-marinated varieties.,https://i.imgur.com/MNtq2Jr.png
-korean bbq sauce,3.89,/EA,seasoning,Marinade your favorite protein for that sweet/tangy Korean bbq taste.,https://i.imgur.com/AkivmWo.png
-bento box,9.99,/EA,housewares,Pack your lunch in over 5 compartments because who doesnt like variety?,https://i.imgur.com/5YkCLIh.png
-chopsticks,1.99,/EA,housewares,The utensil of choice for eating for over 2 billion people,https://i.imgur.com/NqJOYqc.png
-dumplings,3.39,/EA,frozen,"Vegetable, Pork, Beef, Seafood, Shumai, Soup dumplings. You name it we got it.",https://i.imgur.com/6rQ9PJB.png
-beer,8.99,/EA,beverages,Choose from over 50 varieties from over 20 countries. ,https://i.imgur.com/fk4OVcg.png
-seaweed snack pack,4.99,/EA,dried goods,"Try the multi snack pack for a healthy, delicious snack.",https://i.imgur.com/uZDN3fY.png
-masago red,5.99,/EA,seafood,Brighten up your DIY sushi party with these sprinkled on top for visual flare.,https://i.imgur.com/bUUO5oW.png
-masago orange,5.99,/EA,seafood,Brighten up your DIY sushi party with these sprinkled on top for visual flare.,https://i.imgur.com/MlmJrR7.png
-olive oil,9.99,/EA,oils,Freshly cold-pressed 100% Extra Virgin Olive Oil from Italy.,https://i.imgur.com/IHgtFIk.png
-stem tomato,0.69,/LB,produce,Make some salsa or fresh tomato sauce.,https://i.imgur.com/N8VYLbU.png
-honey bear,2.79,/EA,honey,Beezzzily made by local bees.,https://i.imgur.com/V4j6bTl.png
-,,,,,
-,,,,,
+name,price,sold_by,category,description,image_url,store
+banana,0.59,/LB,produce,Monkey's fav,https://i.imgur.com/tOkN7FU.png,
+fuji apple,1.49,/LB,produce,"Grown in NY state, support your local orchards",https://i.imgur.com/wfeSPGq.png,
+white peach,0.99,/LB,produce,California giant white peaches. Enough said.,https://i.imgur.com/24uTbcP.png,
+napa cabbage ,0.59,/LB,produce,"Said to be ""The Fountain of Youth"" ",https://i.imgur.com/c4wF7TX.png,
+baby bokchoy,1.99,/LB,produce,A stir-fry delight,https://i.imgur.com/lhRU5VS.png,
+lemon,0.49,/EA,produce,"Make lemon zest, lemonade, or other lemony delights.",https://i.imgur.com/Zr3hbp7.png,
+dragonfruit,3.99,/EA,produce,The flame of a dragon reincarnated into a fruit,https://i.imgur.com/LScH6BA.png,
+ginger,0.79,/LB,produce,The root of all goodness,https://i.imgur.com/ipcG9cN.png,
+strawberries,1.99,/EA,produce,Berry Berry Good. Smoothie Maker,https://i.imgur.com/viniaWB.png,
+watermelon,6.99,/EA,produce,Hauled in from Texas. Yee-Haw,https://i.imgur.com/XEYeESc.png,
+gummy bears,1.99,/EA,candy,Yummy yummy yummy Ive got gummy in my tummy,https://i.imgur.com/8iGYvAs.png,
+green tea kit kats,3.99,/EA,snacks,An Asian twist on an American classic.,https://i.imgur.com/HS2kJRQ.png,
+orion chocopie,2.99,/EA,snacks,"Similar to moon-pies, chocolate on the outside and marshmallow on the inside",https://i.imgur.com/1OBq84Q.png,
+brown rice green tea 20s,4.99,/EA,tea,All the benefits of green tea without the bitterness and an earthy flavor,https://i.imgur.com/jJYEcJm.png,
+fusilli,2.99,/EA,pasta,Around and around we go. Twisty,https://i.imgur.com/OOvOdyu.png,
+hand-made spaghetti,4.99,/LB,pasta,Hand-tossed by our Italian pasta master chef.,https://i.imgur.com/z8cgMND.png,
+Shrimp,5.99,/LB,seafood,Try our new skewer shrimp sets!,https://i.imgur.com/cvpWSEF.png,
+cereal,3.99,/EA,dried goods,An American staple for breakfast. How do you eat your Os?,https://i.imgur.com/OBYLpbz.png,
+Salmon,8.99,/LB,seafood,Forget the supplements. Get your natural dose of Omega-3 upstream,https://i.imgur.com/oQkWVC1.png,
+flour,3.99,/EA,baking,The essential base to start any baking recipe,https://i.imgur.com/uyiR0NG.png,
+soy sauce,2.99,/EA,seasoning,The must have item for any Asian recipe as it will be used in some way shape or form,https://i.imgur.com/M3yUsuv.png,
+teriyaki sauce,2.49,/EA,seasoning,Marinade your favorite protein or mix in with salad dressing for a tangy kick.,https://i.imgur.com/CliKTD8.png,
+sriracha sauce,3.59,/EA,condiments,The famous green capped hot sauce. From pizza to Pho noodles spice it up!,https://i.imgur.com/0II71O7.png,
+la short ribs,11.99,/LB,meat,The ultimate Korean BBQ meat to marinade. We have fresh or pre-marinated varieties.,https://i.imgur.com/MNtq2Jr.png,
+korean bbq sauce,3.89,/EA,seasoning,Marinade your favorite protein for that sweet/tangy Korean bbq taste.,https://i.imgur.com/AkivmWo.png,
+bento box,9.99,/EA,housewares,Pack your lunch in over 5 compartments because who doesnt like variety?,https://i.imgur.com/5YkCLIh.png,
+chopsticks,1.99,/EA,housewares,The utensil of choice for eating for over 2 billion people,https://i.imgur.com/NqJOYqc.png,
+dumplings,3.39,/EA,frozen,"Vegetable, Pork, Beef, Seafood, Shumai, Soup dumplings. You name it we got it.",https://i.imgur.com/6rQ9PJB.png,
+beer,8.99,/EA,beverages,Choose from over 50 varieties from over 20 countries. ,https://i.imgur.com/fk4OVcg.png,
+seaweed snack pack,4.99,/EA,dried goods,"Try the multi snack pack for a healthy, delicious snack.",https://i.imgur.com/uZDN3fY.png,
+masago red,5.99,/EA,seafood,Brighten up your DIY sushi party with these sprinkled on top for visual flare.,https://i.imgur.com/bUUO5oW.png,
+masago orange,5.99,/EA,seafood,Brighten up your DIY sushi party with these sprinkled on top for visual flare.,https://i.imgur.com/MlmJrR7.png,
+olive oil,9.99,/EA,oils,Freshly cold-pressed 100% Extra Virgin Olive Oil from Italy.,https://i.imgur.com/IHgtFIk.png,
+stem tomato,0.69,/LB,produce,Make some salsa or fresh tomato sauce.,https://i.imgur.com/N8VYLbU.png,
+honey bear,2.79,/EA,honey,Beezzzily made by local bees.,https://i.imgur.com/V4j6bTl.png,
+,,,,,,
+,,,,,,
