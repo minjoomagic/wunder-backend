@@ -19,7 +19,8 @@ class ItemsController < ApplicationController
     description = params["item"]["description"]
     image_url = params["item"]["image_url"]
     category = Category.find_by(name: params["item"]["category"])
-    @item = Item.create(name: name, price: price, description: description, image_url: image_url, category: category)
+    sold_by = params["item"]["sold_by"]
+    @item = Item.create(name: name, price: price, description: description, image_url: image_url, category: category, sold_by: sold_by)
     @user = User.find_by(username: params["user"]["username"])
     @user_item = UserItem.create(user: @user, item: @item)
     render json: @item
@@ -29,16 +30,6 @@ class ItemsController < ApplicationController
   end
 
   def update
-    item = Item.find(params["item"]["id"])
-    item.sold = true
-    item.save
-    seller = User.find_by(username:params["item"]["users"][0]["username"])
-    buyer = User.find_by(username: params["user"]["username"])
-    userItem = UserItem.find_by(user_id: seller.id)
-    userItem.user_id = buyer.id
-    userItem.save
-    # render :
-    # byebug
   end
 
   def destroy

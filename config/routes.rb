@@ -4,6 +4,7 @@ Rails.application.routes.draw do
   resources :user_items
   resources :stores
   resources :store_items
+  resources :favorites
 
   resources :messages
   resources :chats
