@@ -29,6 +29,8 @@
 #
 # puts 'finished seeding'
 
+# The order in which you seed matters! Make sure a creation of an instance doesnt have an attribute that is dependent on another seed!
+
 puts "starting manual seed data"
 Store.create(name: "H&Y Marketplace")
 
