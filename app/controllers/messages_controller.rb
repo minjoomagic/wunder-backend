@@ -13,13 +13,13 @@ class MessagesController < ApplicationController
       message = Message.new(text: params[:message][:text], chat_id: params[:message][:chat_id], user_id: user.id)
       chat = Chat.find(message_params[:chat_id])
 
-      if message.save
+      # if message.save use if you want messages to persist
         serialized_data = ActiveModelSerializers::Adapter::Json.new(
           MessageSerializer.new(message)
         ).serializable_hash
         MessagesChannel.broadcast_to chat, serialized_data
         head :ok
-      end
+      # end
     end
 
     private
