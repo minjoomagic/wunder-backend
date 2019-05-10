@@ -19,7 +19,12 @@ class MessagesController < ApplicationController
         ).serializable_hash
         MessagesChannel.broadcast_to chat, serialized_data
         head :ok
-      # end
+        # ==================================
+      if request.headers['special'] === 'flag'
+        # byebug
+      message2 = "Here is your convo with '#{user.username}' '#{message.text}' "
+      TwilioTextMessenger.new(message2).call
+      end
     end
 
     private
